@@ -1,1 +1,0 @@
-https://yukimasano.github.io
