@@ -44,8 +44,9 @@
               <heading>News</heading>
               <p>
                 <ul>
-                  <li>One paper I supervised accepted to ACL's Workshop on online abuse and harms. More details to follow. </li>
-                  <li>One paper accepted to <a href=https://www.pnas.org/content/118/27/e2025721118>Proceedings of the National Academy of Sciences (PNAS)</a>. </li>
+                  <li>Two papers accepted to ICCV'21! (GDT and STiCA) </li>
+                  <li>One paper I supervised accepted to ACL'21's Workshop on online abuse and harms. More details to follow. </li>
+                  <li>One paper accepted to <a href=https://www.pnas.org/content/118/27/e2025721118>PNAS</a>, my Erdös Number is now 3 via Jobst Heitzig. </li>
                   <li>New preprint: using clustering & contrastive SSL we find objects <a href=https://arxiv.org/abs/2104.06401>without any supervision </a> </li>
                   <li>OxAI team I supervised has published its results at ICLR'21 <a href=https://sdg-quality-privacy-bias.github.io/papers/>SDG workshop  </a> </li>
                   <li>Our new preprint on intersectional occupational biases of GPT-2 is <a href=http://arxiv.org/abs/2102.04130>out </a> </li>
@@ -76,7 +77,45 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/stica.png" alt="crops help training speed" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2103.10211">
+                <papertitle>Space-Time Crop & Attend: Improving Cross-modal Video Representation Learning.</papertitle>
+              </a>
+              <br>
+              Mandela Patrick*<strong>, Yuki M. Asano*</strong>, <a href="https://scholar.google.com/citations?user=JdEJEicAAAAJ&hl=en&oi=ao">Bernie Huang</a>, Ishan Misra, Florian Metze, <a href="http://www.robots.ox.ac.uk/~joao/">João F. Henriques</a>, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
+              <br>
+              <em>ICCV</em>, 2021 &nbsp </font>
+              <br>
+              <a href="https://github.com/facebookresearch/GDT">code | <a href="data/patrick2021spacetime.bib">bibtex</a>
+              <p>We better leverage latent time and space for video representation learning by computing efficient multi-crops in embedding space and using a shallow transformer to model time. This yields SOTA performance and allows for training with longer videos.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/gdt.png" alt="hierarchical transformations" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2003.04298">
+                <papertitle>On Compositions of Transformations in Contrastive Self-Supervised Learning</papertitle>
+              </a>
+              <br>
+              Mandela Patrick*<strong>, Yuki M. Asano*</strong>, <a href="https://scholar.google.com/citations?user=JdEJEicAAAAJ&hl=en&oi=ao">Polina Kuznetsova</a>, <a href="http://ruthcfong.github.io/">Ruth Fong</a>, <a href="http://www.robots.ox.ac.uk/~joao/">João F. Henriques</a>, Geoffrey Zweig, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
+              <br>
+              <em>ICCV</em>, 2021 &nbsp </font>
+              <br>
+              <a href="https://github.com/facebookresearch/GDT">code | <a href="data/patrick2020multimodal.bib">bibtex</a>
+              <p>We give transformations the prominence they deserve by introducing a systematic framework suitable for contrastive learning. SOTA video representation learning by learning (in)variances systematically.
+            </td>
+          </tr>
+
+
            <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/ramsey.png" alt="ramsey model" width="160" height="160">
@@ -90,10 +129,10 @@
               <br>
               <em>Proceedings of the National Academy of Sciences (PNAS)</em>, 2021
               <br>
-              <a href="data/asano2021emergent.bib">bibtex</a>
+              <a href="https://github.com/yukimasano/rck_abm">code | <a href="data/asano2021emergent.bib">bibtex</a>
               <p>We build an agent-based version of a fundamental macroeconomic model and include simple decision making heuristics. We find highly complex behavior and business cycles.</tr>
           </tr>
-          
+
            <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/avdet.jpg" alt="Detecting objects without supervision" width="160" height="160">
@@ -105,9 +144,8 @@
               <br>
               <a href=https://www.robots.ox.ac.uk/~afourast/>Triantafyllos Afouras* </a>, <strong>Yuki M. Asano*</strong>, Francois Fagan, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>, Florian Metze
               <br>
-              <br>
               <a href="data/afouras2021selfsupervised.bib">bibtex</a>
-              <p>We detect objects without any supervisory signal by leveraging multi-modal signals from videos and combining self-supervised contrastive- and clustering-based learning. Our model learns from video and detects objects in images, without the need for audio during inference.
+              <p>We detect objects without any supervisory signal by leveraging multi-modal signals from videos and combining self-supervised contrastive- and clustering-based learning. Our model learns from video and detects objects in images.
             </td>
            </tr>
            <tr>
@@ -121,8 +159,7 @@
               <br>
               Peiyang He, Charlie Griffin, Krzysztof Kacprzyk, Artjom Joosen, Michael Collyer, Aleksandar Shtedritski, <strong>Yuki M. Asano</strong>
               <br>
-              <em>ICLR </em>, 2021 SGD workshop
-              <br>
+              <em>ICLR</em>, 2021 SGD workshop
               <br>
               <a href="data/he2021privacypreserving.bib">bibtex</a>
               <p>We evaluate the potential of conducting object detection with blurred and GAN-swapped faces. It works well and can potentially even alleviate biases.
@@ -139,8 +176,7 @@
               <br>
               <a href=https://www.hannahrosekirk.com/>Hannah Kirk </a>, Yennie Jun, Haider Iqbal, Elias Benussi, Filippo Volpin, Frederic A. Dreyer, Aleksandar Shtedritski, <strong>Yuki M. Asano</strong>
               <br>
-              <br>
-              <a href="data/kirk2021how.bib">bibtex</a>
+              <a href="https://github.com/oxai/intersectional_gpt2">code | <a href="data/kirk2021how.bib">bibtex</a>
               <p>We analyze the biases and distributions of GPT-2's output w.r.t. to occupations. Especially interesting as AI find its way into hiring and automated application assessments.
             </td>
            </tr>
@@ -155,10 +191,9 @@
               <br>
               Mandela Patrick*, <a href="http://www.cs.cmu.edu/~poyaoh/">Po-Yao Huang*</a>, <strong>Yuki M. Asano*</strong>, Florian Metze, Alexander Hauptmann, <a href="http://www.robots.ox.ac.uk/~joao/">João F. Henriques</a>, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
               <br>
-              <em>ICLR </em>, 2021 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
+              <em>ICLR</em>, 2021 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
               <br>
-              <br>
-              <a href="data/patrick2020supportset.bib">bibtex</a>
+              <a href="data/patrick2020supportset.bib">bibtex</a> | <a href="https://slideslive.com/38953567/supportset-bottlenecks-for-videotext-representation-learning?ref=speaker-42650-latest">talk</a>
               <p>We use a generative objective to improve the instance discrimination limitations of contrastive learning to set new state-of-the-art results in text-to-video retrieval.
             </td>
           </tr>
@@ -173,30 +208,10 @@
               <br>
               <strong>Yuki M. Asano*</strong>, Mandela Patrick*, <a href="https://chrirupp.github.io/">Christian Rupprecht</a>, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
               <br>
-              <em>NeurIPS </em>, 2020
+              <em>NeurIPS</em>, 2020
               <br>
-              <br>
-               <a href="https://github.com/facebookresearch/selavi">code |</a> <a href="https://www.robots.ox.ac.uk/~vgg/research/selavi/">homepage |</a> <a href="data/asano2020labelling.bib">bibtex</a>
+               <a href="https://github.com/facebookresearch/selavi">code |</a> <a href="https://www.robots.ox.ac.uk/~vgg/research/selavi/">homepage |</a> <a href="data/asano2020labelling.bib">bibtex</a> | <a href="https://slideslive.com/38955434/selavi-selflabelling-videos-without-any-annotations-from-scratch?ref=account-84503-latest"> talk</a>
               <p>Unsupervisedly clustering videos via self-supervision. We show clustering videos well does not come for free from good representations. Instead, we learn a multi-modal clustering function that treats the audio and visual-stream as augmentations.
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/gdt.png" alt="hierarchical transformations" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://arxiv.org/abs/2003.04298">
-                <papertitle>Multi-modal Self-Supervision from Generalized Data Transformations</papertitle>
-              </a>
-              <br>
-              Mandela Patrick*<strong>, Yuki M. Asano*</strong>, <a href="https://scholar.google.com/citations?user=JdEJEicAAAAJ&hl=en&oi=ao">Polina Kuznetsova</a>, <a href="http://ruthcfong.github.io/">Ruth Fong</a>, <a href="http://www.robots.ox.ac.uk/~joao/">João F. Henriques</a>, Geoffrey Zweig, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
-              <!-- <br> -->
-              <!-- <em>ICLR </em>, 2020 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font> -->
-              <br>
-              <br>
-              <a href="data/patrick2020multimodal.bib">bibtex</a>
-              <p>We give transformations the prominence they deserve, by introducing a systematic framework suitable for contrastive learning. SOTA video representation learning by learning (in)variances systematically.
             </td>
           </tr>
 
@@ -211,9 +226,9 @@
               <br>
               <strong>Yuki M. Asano</strong>, <a href="https://chrirupp.github.io/">Christian Rupprecht</a>, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
               <br>
-              <em>ICLR </em>, 2020 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
+              <em>ICLR</em>, 2020 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
               <br>
-              <a href="https://github.com/yukimasano/self-label">code | </a> <a href="http://www.robots.ox.ac.uk/~vgg/blog/self-labelling-via-simultaneous-clustering-and-representation-learning.html">blog | </a> <a href="data/asano2020self.bib">bibtex</a> | <a href="https://iclr.cc/virtual_2020/poster_Hyx-jyBFPr.html">ICLR presentation</a>
+              <a href="https://github.com/yukimasano/self-label">code | </a> <a href="http://www.robots.ox.ac.uk/~vgg/blog/self-labelling-via-simultaneous-clustering-and-representation-learning.html">blog | </a> <a href="data/asano2020self.bib">bibtex</a> | <a href="https://iclr.cc/virtual_2020/poster_Hyx-jyBFPr.html">ICLR talk</a>
               <p>We propose a self-supervised learning formulation that simultaneously learns feature representations and useful dataset labels by optimizing the common cross-entropy loss for features <i>  and </i> labels, while maximizing information.
             </td>
           </tr>
@@ -229,9 +244,9 @@
               <br>
               <strong>Yuki M. Asano</strong>, <a href="https://chrirupp.github.io/">Christian Rupprecht</a>, <a href="http://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
               <br>
-              <em>ICLR </em>, 2020
+              <em>ICLR</em>, 2020
               <br>
-              <a href="data/asano2020a.bib">bibtex</a> | <a href="https://iclr.cc/virtual_2020/poster_B1esx6EYvr.html">ICLR presentation</a>
+              <a href="data/asano2020a.bib">bibtex</a> | <a href="https://iclr.cc/virtual_2020/poster_B1esx6EYvr.html">ICLR talk</a>
               <p>We evaluate self-supervised feature learning methods and find that with sufficient data augmentation early layers can be learned using just one image.  This is informative about self-supervision and the role of augmentations.
             </td>
           </tr>
@@ -263,7 +278,7 @@
               </a>
               <br> G. Dedes, <strong>YM. Asano</strong>, N. Arbor, D. Dauvergne, J. Letang, E. Testa, S. Rit, K. Parodi
               <br>
-              <em>Medical Physics </em>, 2016
+              <em>Medical Physics</em>, 2016
               <br>
               <a href="data/dedes2015j.bib">bibtex</a>
               <p> In my BSc thesis, I investigated how we can model proton computation tomography (pCT) using Monte-Carlo based software. We simulated an ideal pCT scanner and scans of several cylindrical phantoms with various tissue equivalent inserts of different sizes.
