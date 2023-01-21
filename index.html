@@ -45,6 +45,7 @@
               <heading>News</heading>
               <p>
                 <ul>
+                  <li>Two papers accepted to ICLR'23!</li>
                   <li>Welcome to my new MSc thesis students: Lukas, Luc, Apostolos and Alfonso!</li>
                   <li>I'm honored to serve as an Area Chair for CVPR'23! </li>
                   <li>If you are a MSc in AI student at the UvA and want to write your thesis with me, please contact me. I have some exciting projects. </li>
@@ -60,13 +61,13 @@
                   <li>One paper accepted at NeurIPS'21-Datasets Track: the <a href=https://www.robots.ox.ac.uk/~vgg/research/pass/>PASS dataset</a>, incl. <a href=https://github.com/yukimasano/PASS/>pretrained models</a>. </li>
                   <li>Passed my PhD with "no corrections", my examiners were Phillip Isola and Philip Torr. </li>
                   <li>Two papers accepted to ICCV'21! (GDT and STiCA) </li>
-                  <li>One paper I supervised accepted to ACL'21's Workshop on online abuse and harms. More details to follow. </li>
                   <li>One paper accepted to <a href=https://www.pnas.org/content/118/27/e2025721118>PNAS</a>, my Erdös Number is now 3 via Jobst Heitzig. </li>
-                  <li>New preprint: using clustering & contrastive SSL we find objects <a href=https://arxiv.org/abs/2104.06401>without any supervision </a> </li>
                   <li><input type="checkbox" id="toggle" class="unfolder"/>
                   <label for="toggle" class="toggle-label"><span class="fold-icon">&#9660;</span>More..</label>
                   <div class="fold">
                   <ul>
+                    <li>One paper I supervised accepted to ACL'21's Workshop on online abuse and harms. More details to follow. </li>
+                    <li>New preprint: using clustering & contrastive SSL we find objects <a href=https://arxiv.org/abs/2104.06401>without any supervision </a> </li>
                     <li>OxAI team I supervised has published its results at ICLR'21 <a href=https://sdg-quality-privacy-bias.github.io/papers/>SDG workshop  </a> </li>
                     <li>Our new preprint on intersectional occupational biases of GPT-2 is <a href=http://arxiv.org/abs/2102.04130>out </a> </li>
                     <li>Our paper on video-text representation learning got accepted as a Spotlight into ICLR 2021!</li>
@@ -104,14 +105,50 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in computer vision, self-supervised and multi-modal learning as well as privacy and ethics in AI.
+                I'm interested in computer vision, self-supervised and multi-modal learning as well as causality and privacy in AI.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
        
-        
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/kd.gif" alt="method" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2112.00725">
+                <papertitle>Extrapolating from a Single Image to a Thousand Classes using Distillation</papertitle>
+              </a>
+              <br>
+              <strong>Yuki M. Asano</strong>*</a>, <a href="http://aqibsaeed.github.io">Aaqib Saeed*</a>
+              <br>
+              <em>ICLR</em>, 2023
+              <br>
+              <a href="https://single-image-distill.github.io">website | <a href="https://github.com/yukimasano/single-img-extrapolating">code | <a href="data/asaon2023extrapolating.bib">bibtex</a>
+              <p> We show that it is possible to extrpolate to semantic classes such as those of ImageNet using just a single datum as visual inputs. We leverage knowledge distillation for this and achieve performances of 94%/74% on CIFAR-10/100, 66% on ImageNet and, by extending this method to audio, 84% on SpeechCommands.
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                     <img src="images/instant.png" alt="method" width="160" height="160">
+                   </td>
+                   <td width="75%" valign="middle">
+                     <a href="https://openreview.net/forum?id=itZ6ggvMnzS">
+                       <papertitle>Causal Representation Learning for Instantaneous and Temporal Effects</papertitle>
+                     </a>
+                     <br>
+                     <a href="https://phlippe.github.io/">Phillip Lippe</a>, <a href="https://smaglia.wordpress.com/">Sara Magliacane</a>, <a href="https://loewex.github.io/">Sindy Löwe</a>, <strong>Yuki M. Asano</strong>, <a href="https://tacocohen.wordpress.com/">Taco Cohen</a>, <a href='https://www.egavves.com/'></a>Efstratios Gavves</a>
+                     <br>
+                     <em>ICLR</em>, 2023
+                     <br>
+                     <a href="data/lippe2023causal.bib">bibtex</a>
+                     <p> A causal representation learning method that can identify causal variables with instantaneous effects and their graph from temporal sequences with interventions.
+                   </td>
+                 </tr>
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
                      <img src="images/prompt.png" alt="method" width="160" height="100">
@@ -282,23 +319,7 @@
             </tr>
 
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/kd.gif" alt="method" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://arxiv.org/abs/2112.00725">
-                <papertitle>Extrapolating from a Single Image to a Thousand Classes using Distillation</papertitle>
-              </a>
-              <br>
-              <strong>Yuki M. Asano</strong>*</a>, <a href="http://aqibsaeed.github.io">Aaqib Saeed*</a>
-              <br>
-              <em>arxiv</em>, 2021
-              <br>
-              <a href="https://single-image-distill.github.io">website | <a href="https://github.com/yukimasano/single-img-extrapolating">code | <a href="data/asaon2021extrapolating.bib">bibtex</a>
-              <p> We show that it is possible to extrpolate to semantic classes such as those of ImageNet using just a single datum as visual inputs. We leverage knowledge distillation for this and achieve performances of 94%/74% on CIFAR-10/100, 59% on ImageNet and, by extending this method to audio, 84% on SpeechCommands.
-            </td>
-          </tr>
+
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
