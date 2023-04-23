@@ -37,10 +37,6 @@
 <lastmod>2015-10-20T17:59:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/2020/twitter/</loc>
-<lastmod>2020-09-28T17:12:00+02:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/blog/2020/github-metadata/</loc>
 <lastmod>2020-09-28T23:01:00+02:00</lastmod>
 </url>
@@ -55,10 +51,6 @@
 <url>
 <loc>http://localhost:4000/blog/2022/redirect/</loc>
 <lastmod>2022-02-01T18:39:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/2022/giscus-comments/</loc>
-<lastmod>2022-12-10T16:59:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
