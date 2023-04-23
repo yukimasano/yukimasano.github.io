@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yukimasano.github.io/sitemap.xml
