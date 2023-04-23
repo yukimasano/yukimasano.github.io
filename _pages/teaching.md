@@ -68,9 +68,6 @@ Lectures and workshop materials.
         <h5 class="font-weight-bold">Presentation training</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
-            uva-dl2
-        </span>
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">VIS Lab group meeting</h6>
