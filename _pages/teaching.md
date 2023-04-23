@@ -29,7 +29,7 @@ Lectures and workshop materials.
       <li class="list-group-item">6 ECTS module in the MSc in AI course at UvA.</li>
       <li class="list-group-item">Content: Basics in deep learning, optimisation, and various topics</li>
       <li class="list-group-item">Find the website <a href="https://uvadlc.github.io/">here</a>, the <a href="https://phlippe.github.io/">Phillip's</a> tutorials  <a href="https://uvadlc-notebooks.readthedocs.io/en/latest/">here</a> </li>
-      <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/assets/pdf/DL1">here</a></li>
+      <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/DL1">here</a></li>
       <li class="list-group-item"><a href="https://www.youtube.com/watch?v=RYMwu7lwmvo&list=PLu510v7B3XLMSeLaIBLylKYzFYKPLD1K1">Playlist of 2022 version</a>; and
       Lecture 1:
       {% include youtubePlayer.html id=page.youtubeId2 %}
@@ -54,7 +54,7 @@ Lectures and workshop materials.
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">1 ECTS Submodule at the <a href="https://uvadl2c.github.io/">Deep Learning 2 course</a> in the MSc in AI course at UvA</li>
       <li class="list-group-item">Content: SOTA vision-language models, LLMs + vision models, in-context learning</li>
-      <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/assets/pdf/DL2">here</a></li>      <li class="list-group-item">
+      <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/DL2">here</a></li>      <li class="list-group-item">
       Lecture 1:
       {% include youtubePlayer.html id=page.youtubeId %} </li>
     </ul>
