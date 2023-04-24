@@ -28,8 +28,8 @@ Lectures and workshop materials.
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">6 ECTS module in the MSc in AI course at UvA.</li>
       <li class="list-group-item">Content: Basics in deep learning, optimisation, and various topics</li>
-      <li class="list-group-item">Find the website <a href="https://uvadlc.github.io/">here</a>, the <a href="https://phlippe.github.io/">Phillip's</a> tutorials  <a href="https://uvadlc-notebooks.readthedocs.io/en/latest/">here</a> </li>
-      <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/DL1">here</a></li>
+      <li class="list-group-item">Find the website <a href="https://uvadlc.github.io/">here</a>, and <a href="https://phlippe.github.io/">Phillip's</a> tutorials  <a href="https://uvadlc-notebooks.readthedocs.io/en/latest/">here</a> </li>
+      <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/DL1">here</a>; mini-series on "how research gets done" <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/DL1/how-to-research-mini-series.pdf">here</a></li>
       <li class="list-group-item"><a href="https://www.youtube.com/watch?v=RYMwu7lwmvo&list=PLu510v7B3XLMSeLaIBLylKYzFYKPLD1K1">Playlist of 2022 version</a>; and
       Lecture 1:
       {% include youtubePlayer.html id=page.youtubeId2 %}
