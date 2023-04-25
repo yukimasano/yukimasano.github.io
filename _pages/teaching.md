@@ -7,6 +7,7 @@ nav: true
 nav_order: 5
 youtubeId: 6P29b2UvVTg
 youtubeId2: RYMwu7lwmvo
+youtubeId3: pvljSifaAIg
 ---
 Lectures and workshop materials.
 
@@ -56,7 +57,9 @@ Lectures and workshop materials.
       <li class="list-group-item">Content: SOTA vision-language models, LLMs + vision models, in-context learning</li>
       <li class="list-group-item">Slides are <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/DL2">here</a></li>      <li class="list-group-item">
       Lecture 1:
-      {% include youtubePlayer.html id=page.youtubeId %} </li>
+      {% include youtubePlayer.html id=page.youtubeId %} </li> 
+      Lecture 2:
+      {% include youtubePlayer.html id=page.youtubeId3 %} </li>
     </ul>
   </div>
 </div>
