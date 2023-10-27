@@ -1,15 +1,9 @@
 ---
 layout: page
-title: Mohammadreza Salehi
+title: Michael Dorkenwald
 description: PhD student
-img: assets/img/mohammadreza.jpg
+img: assets/img/michael.jpeg
 importance: 1
 category: PhD
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
