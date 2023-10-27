@@ -2,7 +2,7 @@
 layout: page
 title: team
 permalink: /projects/
-description: Science is a team effort. Here is the Visual Unsupervised Understanding (VUUn) "Fuun" group. 
+description: Science is a team effort. Here it is 
 nav: true
 nav_order: 2
 display_categories: [PhD, MSc, Alumni]
