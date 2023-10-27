@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Nimi Barazani 
+title: Gergely Papp 
 description: MSc student
-img: assets/img/nimi.jpeg
+img: assets/img/gergely.jpeg
 importance: 1
 category: MSc
 related_publications: 

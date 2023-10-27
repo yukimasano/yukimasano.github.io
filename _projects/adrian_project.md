@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Jochem Loedeman 
+title: Adrian Ziegler 
 description: MSc student
-img: assets/img/jochem.jpeg
+img: assets/img/adrian.jpeg
 importance: 1
 category: Alumni
-related_publications: Loedeman2022prompt
+related_publications: ziegler2022self
 ---
 

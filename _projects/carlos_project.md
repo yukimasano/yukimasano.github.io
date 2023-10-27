@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Luc Weytingh 
+title: Carlos Medina Temma
 description: MSc student
-img: assets/img/luc.png
+img: assets/img/carlos.jpeg
 importance: 1
 category: Alumni
 related_publications:

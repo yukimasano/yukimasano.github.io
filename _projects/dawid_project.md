@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Ryan  Amaudruz 
+title: Dawid Kopiczko 
 description: MSc student
-img: assets/img/ryan.jpeg
+img: assets/img/dawid.jpeg
 importance: 1
 category: MSc
-related_publications: 
+related_publications: kopiczko2023vera
 ---
 

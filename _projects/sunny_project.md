@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Luc Weytingh 
+title: Sunny Soni 
 description: MSc student
-img: assets/img/luc.png
+img: assets/img/sunny.jpeg
 importance: 1
 category: Alumni
 related_publications:

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Team
+title: team
 permalink: /projects/
-description: Science is a team effort. Here it is:
+description: Science is a team effort. Here it is
 nav: true
 nav_order: 2
 display_categories: [PhD, MSc, Alumni]
 horizontal: false
 ---
 
-<!-- pages/team.md -->
+<!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

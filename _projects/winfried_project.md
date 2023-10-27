@@ -5,5 +5,5 @@ description: PhD student
 img: assets/img/winfried.png
 importance: 1
 category: PhD
-related_publications: 
+related_publications: dool2023efficient
 ---
