@@ -2,7 +2,7 @@
 layout: page
 title: Rob Romijnders
 description: PhD student
-img: assets/img/rob.jpeg
+img: assets/img/rob.jpg
 importance: 1
 category: PhD
 related_publications: romijnders2023no
