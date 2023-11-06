@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Anne van der Weijden
-description: MSc student
+description: BSc student
 img: assets/img/anne.jpeg
 importance: 1
 category: Alumni
