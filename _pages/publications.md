@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-see also [Google scholar](https://scholar.google.co.uk/citations?hl=en&user=CdpLhlgAAAAJ), * denote equal contribution, ⁺ denotes equal contribution with random order.
+Most recent list at [Google scholar](https://scholar.google.co.uk/citations?hl=en&user=CdpLhlgAAAAJ). * denote equal contribution, ⁺ denotes equal contribution with random order.
 
 
 <!-- _pages/publications.md -->
