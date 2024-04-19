@@ -11,7 +11,49 @@ youtubeId3: pvljSifaAIg
 ---
 Lectures and workshop materials.
 
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold">Thoughts on Research</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+      </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">This document is work-in-progress</h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">I've written down some of my thoughts on how to conduct research. Perhaps it helps some. </li>
+      <li class="list-group-item">Find the document <a href="https://docs.google.com/document/d/1bO5Mw9fc3SU6Wa76tR-u6egcUtty5dvn0-yzRWgUfQo/edit?usp=sharing">here</a></li>
+      <li class="list-group-item">I'd be happy to hear your feedback on how to improve it.</li>
+    </ul>
+  </div>
+</div>
+
 <h3 class="mt-4">University of Amsterdam</h3>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold">Foundation Models</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+            uva-fomo
+        </span>
+      </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">Spring 2024: Co-Lecturer, Co-course-coordinator</h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">6 ECTS module in the MSc in AI course at UvA.</li>
+      <li class="list-group-item">Content: Large-scale models, Training, Finetuning, Multimodal Learning, MoEs</li>
+      <li class="list-group-item">Find the website <a href="https://uvafomo.github.io/">here</a></li>
+      <li class="list-group-item">Slides are <a href="https://uvafomo.github.io/#lectures">here</a>; lecture on <a href="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/pdf/peft.pdf">Parameter-Efficient Finetuning Methods (PEFT)</a></li>
+</li>
+    </ul>
+  </div>
+
+</div>
 
 <div class="card mt-3">
   <div class="p-3">
@@ -25,7 +67,7 @@ Lectures and workshop materials.
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Fall 2022: Lecturer, course coordinator</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2022/2023: Lecturer, course coordinator</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">6 ECTS module in the MSc in AI course at UvA.</li>
       <li class="list-group-item">Content: Basics in deep learning, optimisation, and various topics</li>
