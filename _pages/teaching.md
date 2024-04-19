@@ -77,7 +77,7 @@ Lectures and workshop materials.
       Lecture 1:
       {% include youtubePlayer.html id=page.youtubeId2 %}
 </li>
-    </ul>
+    </ul> 
   </div>
 
 </div>
