@@ -49,7 +49,7 @@ Lectures and workshop materials.
       <li class="list-group-item">Content: Large-scale models, Training, Finetuning, Multimodal Learning, MoEs</li>
       <li class="list-group-item">Find the website <a href="https://uvafomo.github.io/">here</a></li>
       <li class="list-group-item">Slides are <a href="https://uvafomo.github.io/#lectures">here</a>; lecture on <a href="https://www.dropbox.com/scl/fi/qzigari5so3hauq2kcd8o/peft.pdf?rlkey=p2kxo85iyrrs507q39ypkko6p&dl=0">Parameter-Efficient Finetuning Methods (PEFT)</a></li>
-</li>
+      <a href="https://www.dropbox.com/scl/fi/qzigari5so3hauq2kcd8o/peft.pdf?rlkey=p2kxo85iyrrs507q39ypkko6p&dl=0"><img src="https://github.com/yukimasano/yukimasano.github.io/tree/master/assets/img/peft_.png" alt="Italian Trulli"></a></li>
     </ul>
   </div>
 
@@ -76,7 +76,7 @@ Lectures and workshop materials.
       <li class="list-group-item"><a href="https://www.youtube.com/watch?v=RYMwu7lwmvo&list=PLu510v7B3XLMSeLaIBLylKYzFYKPLD1K1">Playlist of 2022 version</a>; and
       Lecture 1:
       {% include youtubePlayer.html id=page.youtubeId2 %}
-</li>
+</li>x
     </ul> 
   </div>
 
