@@ -42,3 +42,10 @@ At Google
 * Guiding diffusion models with via a SSL signal
 * 1-image distillation: achieving 69% top-1 on IN-1k with only 1-image as training inputs
 * [**Find the slides here**](https://www.dropbox.com/scl/fi/pchn7fl9tu28fx79lbkcl/google.pdf?rlkey=tumdly52pyaqtfbmzwmptn96t&dl=0)
+
+### Tel-Aviv, Israel 2022
+At Amazon Webservices 
+* Video-text learning with support-set bottlenecks
+* Self-supervised object detection via audio-video
+* 1-image distillation: achieving 69% top-1 on IN-1k with only 1-image as training inputs
+* [**Find the slides here**](https://www.dropbox.com/s/59bpidv26l31sjh/aws.pdf?dl=0)
