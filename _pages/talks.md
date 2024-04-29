@@ -23,8 +23,8 @@ At Apple Research
 * VeRA: LoRA but 10-100x less parameters
 * [**Find the slides here**](https://www.dropbox.com/scl/fi/joxhicqp0w9i6njn5v7i6/Barcelona.pdf?rlkey=qibw6vcek1eupsq1jdavszw0d&dl=0)
 
-### NeurIPS 2023
-At Self-supervised Learning: Theory & Practice workshop
+### New Orleans 2023
+At NeurIPS: Self-supervised Learning: Theory & Practice workshop
 * Why care about SSL when we have CLIP?
 * Why video SSL is sooo back
 * TimeTuning: further tuning a DINO model with videos
@@ -32,8 +32,8 @@ At Self-supervised Learning: Theory & Practice workshop
 * Mimicking video-caption data with non-sense text and clustered images
 * [**Find the slides here**](https://www.dropbox.com/scl/fi/q08n3g2p9sal5pnltdmr9/neurips-2023.pdf?rlkey=lvrqikk8y9bqltmap3bexi805&dl=0)
 
-### Accra, Ghana 2023
-At Google
+### Accra 2023
+At Google Ghana & University of Ghana
 * Why care about SSL 
 * SeLa: SSL from Sinkhorn-Knopp optimal transport 
 * Leopart: Spatially-dense SSL for unsupervised object segmentation
@@ -43,8 +43,8 @@ At Google
 * 1-image distillation: achieving 69% top-1 on IN-1k with only 1-image as training inputs
 * [**Find the slides here**](https://www.dropbox.com/scl/fi/pchn7fl9tu28fx79lbkcl/google.pdf?rlkey=tumdly52pyaqtfbmzwmptn96t&dl=0)
 
-### Tel-Aviv, Israel 2022
-At Amazon Webservices 
+### Tel-Aviv 2022
+At Amazon Research 
 * Video-text learning with support-set bottlenecks
 * Self-supervised object detection via audio-video
 * 1-image distillation: achieving 69% top-1 on IN-1k with only 1-image as training inputs
