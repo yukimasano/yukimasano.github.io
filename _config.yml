@@ -10,7 +10,7 @@ email: y.m.asano@uva.nl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of Yuki M. Asano
 footer_text: 
-keywords: Computer vision, self-supervised learning, multi-modal learning  # add your own keywords or leave empty
+keywords: Computer vision, self-supervised learning, multimodal learning  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧑‍🔬  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -173,7 +173,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit:  # leave blank to include all the news in the `_news` folder
+  limit:  4 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
