@@ -48,10 +48,17 @@ Lectures and workshop materials.
       <li class="list-group-item">6 ECTS module in the MSc in AI course at UvA.</li>
       <li class="list-group-item">Content: Large-scale models, Training, Finetuning, Multimodal Learning, MoEs</li>
       <li class="list-group-item">Find the website <a href="https://uvafomo.github.io/">here</a></li>
-      <li class="list-group-item">Slides are <a href="https://uvafomo.github.io/#lectures">here</a>; lecture on <a href="https://www.dropbox.com/scl/fi/qzigari5so3hauq2kcd8o/peft.pdf?rlkey=p2kxo85iyrrs507q39ypkko6p&dl=0">Parameter-Efficient Finetuning Methods (PEFT)</a></li>
+      <li class="list-group-item">Slides are <a href="https://uvafomo.github.io/#lectures">here</a>; </li>
+      <li class="list-group-item"> lecture on <a href="https://www.dropbox.com/scl/fi/qzigari5so3hauq2kcd8o/peft.pdf?rlkey=p2kxo85iyrrs507q39ypkko6p&dl=0">Parameter-Efficient Finetuning Methods (PEFT)</a></li>
       <li class="list-group-item">
         <a href="https://www.dropbox.com/scl/fi/qzigari5so3hauq2kcd8o/peft.pdf?rlkey=p2kxo85iyrrs507q39ypkko6p&dl=0">
           <img src="https://raw.githubusercontent.com/yukimasano/yukimasano.github.io/master/assets/img/peft_.png" alt="PEFT" style="width:420px;">
+        </a>
+      </li>
+       <li class="list-group-item"> lecture on <a href="https://www.dropbox.com/s/qsmucevl636ls3e/MoE%20lecture%20FOMO%202024.pdf?dl=0">Mixture of Experts (MoEs)</a></li>
+      <li class="list-group-item">
+        <a href="https://www.dropbox.com/s/qsmucevl636ls3e/MoE%20lecture%20FOMO%202024.pdf?dl=0">
+          <img src="https://raw.githubusercontent.com/yukimasano/yukimasano.github.io/master/assets/img/moe.png" alt="MoEs" style="width:420px;">
         </a>
       </li>
     </ul>
