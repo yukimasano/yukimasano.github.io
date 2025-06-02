@@ -8,6 +8,16 @@ nav_order: 5
 ---
 I'll try to occasionally post some of the slides of my talks, in a way that there's not too much overlap.
 
+### Heidelberg 2025
+At Heidelberg.ai / hosted by  German Cancer Research Center (DKFZ)
+* Why SSL and why vision-language research is fun
+* Generalisation from LLMs 
+* Parameter-efficient finetuning for Transformers
+* TimeTuning: further tuning a DINO model with videos
+* Post-pretraining of DINOv2 to improve performances
+* [**Find the slides here**](https://www.dropbox.com/scl/fi/g1lqoq6yve9qotzmgg42j/Heidelberg_Asano_2025.pdf?rlkey=z6wqsyis3272dfmzeplyqce6g&dl=0)
+
+
 ### Birmingham 2024
 At Univ. Birmingham Synergising the Human Brain and Arficial Neural Networks Workshop
 * Why care about SSL, what is SSL
