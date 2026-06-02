@@ -6,7 +6,7 @@ subtitle: Full Professor, University of Technology Nuremberg – formerly at UvA
 
 profile:
   align: right
-  image: yuki.jpg
+  image: yuki.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Ulmenstr 52i </p>
