@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: code
 description: I strive to open-source all research I conduct to ensure reproducibility
-nav: true
+nav: false
 nav_order: 3
 ---
 

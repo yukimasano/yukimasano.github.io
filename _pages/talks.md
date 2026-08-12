@@ -8,6 +8,20 @@ nav_order: 5
 ---
 I'll try to occasionally post some of the slides of my talks, in a way that there's not too much overlap.
 
+### Oxford 2026
+ASPIRE workshop (Univ Oxford/AIST/TUS)
+* Does learning vision encoders still matter in CV?
+* [Slides](https://docs.google.com/presentation/d/1TWcQFzYif_nHeqChRCUDCp02lLohhFnV0Vxl2VP2000/edit?usp=sharing)
+
+
+### Tromsø 2026
+Keynote at the Northern Lights Deep Learning conference
+* Is SSL dead or more relevant than ever?
+* Where are SSL (principles/methods) found in 3D/Multimodal/video methods?
+* Post-pretraining
+* Speculations
+* [Slides](https://docs.google.com/presentation/d/1JbXJRJQf_b55CQgtmCCu1yDCrSAA4NloNjLXSbNJiXo/edit?usp=sharing)
+
 ### Heidelberg 2025
 At Heidelberg.ai / hosted by  German Cancer Research Center (DKFZ)
 * Why SSL and why vision-language research is fun
