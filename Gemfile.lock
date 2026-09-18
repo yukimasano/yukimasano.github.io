@@ -77,7 +77,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
-    jekyll-link-attributes (1.0.1)
+    jekyll-target-blank (2.0.2)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (~> 1.10)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -180,7 +182,7 @@ DEPENDENCIES
   jekyll-email-protect
   jekyll-feed
   jekyll-imagemagick
-  jekyll-link-attributes
+  jekyll-target-blank
   jekyll-minifier
   jekyll-paginate-v2
   jekyll-scholar
