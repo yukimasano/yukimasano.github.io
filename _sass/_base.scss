@@ -532,6 +532,134 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  .publication-browser {
+    margin: 0 0 2rem;
+    padding: 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background: var(--global-card-bg-color);
+  }
+
+  .publication-browser__intro {
+    max-width: 48rem;
+    margin: 0 0 1rem;
+    color: var(--global-text-color-light);
+  }
+
+  .publication-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .publication-filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.5rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--global-text-color);
+    background: var(--global-bg-color);
+    font: inherit;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+
+    &.is-active {
+      border-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+      background: var(--global-theme-color);
+
+      .publication-filter__count {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .publication-filter__count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.55rem;
+    min-height: 1.55rem;
+    padding: 0 0.35rem;
+    border-radius: 999px;
+    color: var(--global-text-color-light);
+    background: var(--global-card-bg-color);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .publication-results-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    h2.category {
+      margin: 0;
+      padding: 0 0 0.5rem;
+      border: 0;
+      color: var(--global-text-color);
+      font-size: 1.25rem;
+      text-align: left;
+    }
+  }
+
+  .publication-filter-status {
+    margin: 0 0 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+  }
+
+  .publication-year-group[hidden],
+  ol.bibliography > li[hidden] {
+    display: none;
+  }
+
+  ol.bibliography > li.is-visible {
+    animation: publicationFadeIn 0.35s ease both;
+  }
+
+  .show-more {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.55rem 1rem;
+    border: 0;
+    border-radius: 8px;
+    color: var(--global-bg-color);
+    background: var(--global-theme-color);
+    font: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background: var(--global-hover-color);
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -700,6 +828,30 @@ footer.sticky-bottom {
       }
     }
   }
+
+  @media (max-width: 575.98px) {
+    .publication-browser {
+      padding: 1rem;
+    }
+
+    .publication-filter {
+      min-height: 2.75rem;
+    }
+
+    .publication-results-header {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .publication-filter-status {
+      margin-top: -0.25rem;
+    }
+  }
+}
+
+@keyframes publicationFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 // Rouge Color Customization
